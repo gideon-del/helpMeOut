@@ -59,7 +59,7 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <section className="max-w-[1240px] mx-auto flex flex-col-reverse lg:flex-row items-center mt-[107px]  gap-6 mb-[136px] ">
+        <section className="max-w-[1240px] mx-auto flex flex-col-reverse lg:flex-row items-center mt-[107px]  gap-6 mb-[136px] flex-1 ">
           <div className="max-w-[548px] flex flex-col items-center lg:items-start ">
             <h2
               className={`max-w-[468px] mb-5 ${sora.variable} font-saro lg:text-[64px] md:text-[30px] text-[20px]  text-[#141414] font-bold leading-[100%]`}

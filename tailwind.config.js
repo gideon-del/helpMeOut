@@ -40,6 +40,8 @@ module.exports = {
         darkBlue: "rgba(18, 11, 72, 1)",
         darkGreen: "rgba(0, 130, 130, 1)",
         lightGreen: "rgba(186, 246, 235, 1)",
+        grey_100: "rgba(182, 179, 198, 0.20)",
+        grey_200: "#434343CC",
       },
       fontFamily: {
         manrope: ["var(--font-manrope)"],
