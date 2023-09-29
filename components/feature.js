@@ -4,10 +4,10 @@ import React from "react";
 
 const Feature = ({ img, title, desc }) => {
   return (
-    <div className="flex items-start gap-4">
+    <div className="flex flex-col  lg:flex-row lg:items-start items-center gap-4 max-w-md mx-auto lg:max-w-none">
       <Image src={img} alt="Screem Recording" className="" />
       <div
-        className={`${inter.variable} font-inter flex-col gap-2 font-semibold text-[28px] text-[#1B233D]`}
+        className={`${inter.variable} font-inter flex-col gap-2 text-center lg:text-start font-semibold text-[28px] text-[#1B233D]`}
       >
         <h3>{title}</h3>
         <p
