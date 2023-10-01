@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 @layer components {
+  body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+  }
   /* width */
   ::-webkit-scrollbar {
     width: 6px;
@@ -29,5 +33,12 @@
       transparent 35%,
       rgba(207, 207, 207, 0.5)
     );
+  }
+  .grid-stack {
+    @apply grid grid-cols-1;
+  }
+  .grid-stack > * {
+    grid-column: 1/1;
+    grid-row: 1/1;
   }
 }

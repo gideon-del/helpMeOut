@@ -146,7 +146,7 @@ export default function Home() {
             </div>
           </section>
         </section>
-        <section className="max-w-[1240px] mx-auto lg:py-20">
+        <section className="max-w-[1240px] mx-auto lg:py-20" id="how">
           <h2
             className={`${sora.variable} font-saro font-bold lg:text-[40px] md:text-4xl text-3xl  text-[#141414] text-center mb-[59px]`}
           >

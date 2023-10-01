@@ -48,6 +48,7 @@ module.exports = {
         saro: ["var(--font-sora)"],
         inter: ["var(--font-inter)"],
         workSans: ["var(--font-workSans)"],
+        sen: ["var(--font-sen)"],
       },
       lineHeight: {
         primary: "151.3%",

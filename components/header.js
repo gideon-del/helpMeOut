@@ -2,6 +2,7 @@ import { inter, sora, workSans } from "@/utils/font";
 import Image from "next/image";
 import React from "react";
 import logo from "@/public/assets/logo.svg";
+import Link from "next/link";
 const Header = () => {
   return (
     <header>
@@ -15,15 +16,21 @@ const Header = () => {
           <ul
             className={`${workSans.variable} [&>*]:cursor-pointer font-workSans flex items-center gap-10 font-medium py-6 my-[10px]`}
           >
-            <li>Features</li>
-            <li>How It Works</li>
+            <li>
+              <Link href={"/#features"}>Features</Link>
+            </li>
+            <li>
+              <Link href={"/#how"}>How It Works </Link>
+            </li>
           </ul>
         </nav>
-        <button
-          className={`${sora.variable} font-saro text-primary-500 font-semibold`}
-        >
-          Get Started
-        </button>
+        <Link href={"/auth"}>
+          <button
+            className={`${sora.variable} font-saro text-primary-500 font-semibold`}
+          >
+            Get Started
+          </button>
+        </Link>
       </div>
     </header>
   );

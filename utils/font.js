@@ -1,4 +1,4 @@
-import { Inter, Manrope, Sora, Work_Sans } from "next/font/google";
+import { Inter, Manrope, Sen, Sora, Work_Sans } from "next/font/google";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -19,4 +19,9 @@ export const manrope = Manrope({
   weight: ["500"],
   subsets: ["latin"],
   variable: "--font-manrope",
+});
+export const sen = Sen({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-sen",
 });
